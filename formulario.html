@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(fondo.jpg);
+        color: #fff;
+        background-size: cover;
+    }
+    
+    img {
+        width: 4em;
+    }
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    form label {
+      display: block;
+      margin-top: 10px;
+  }
+    header {
+      text-align: center;
+      background-color: #9e02d7;
+      color: #fff;
+      padding: 10px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  </style>
+    <title>Contacto - Tienda Online</title>
+</head>
+<body>
+<header>
+    <nav class="logo-container">
+        <h1 class="logo">ProgramaYa!</h1>
+        <img src="fondo2.png" alt="" class="logo_foto">
+    </nav>
+</header>
+<main>
+    <h1>Contacta con Nosotros</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='lizank176@gmail.com'>
+  <fieldset>
+        <label for="first-name">Nombre: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Apellidos: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email"> Email: <input id="email" name="email" type="email" required /></label>
+  </fieldset>
+  <fieldset>
+        <label for="motivo">Motivo: </label>
+       <select id="motivo" name="motivo">
+            <option value="">(select one)</option>
+            <option value="1">Conculta</option>
+            <option value="2">Sugerencia</option>
+            <option value="3">Reclamación</option>
+            <option value="4">Otro</option>
+        </select>
+          </label>
+        <label for="mensaje">Mensaje:
+          <textarea id="mensaje" name="mensaje" rows="3" cols="30" ></textarea>
+        </label>
+  </fieldset>
+      
+  <label for="urgente">Urgente:
+        
+        <input id="urgente" type="checkbox" name="urgente" /> </label> <br>
+        <button type="reset">Limpiar</button>
+        <button type="submit">Enviar</button>
+     
+    </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilos.css">
+   <style>
+    ul {
+        font-style: italic;
+        color: beige;
+        text-align: left;
+       }
+    .profesor1foto {
+        width: 200px;
+        border: 20px solid rgba(177, 73, 203, 0.827);
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(117, 2, 88, 0.318); ;
+        height: 250px;
+       }
+    .profesor2foto{
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+        border: 20px solid rgba(177, 73, 203, 0.827);
+        box-shadow: 5px 5px 10px rgba(117, 2, 88, 0.318);
+
+       }
+    .profesor3foto{
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+        border: 20px solid rgba(177, 73, 203, 0.827);
+        box-shadow: 5px 5px 10px rgba(117, 2, 88, 0.318);
+
+       }
+    .profesores {
+        display: flex;
+        justify-content: space-around; /* Espaciado igual entre las imágenes */
+        align-items: center;
+        font-size: large;
+       }
+    .profesor {
+        max-width: 30%;
+       }
+     #mejores {
+        text-align: center;
+        font-size: 6em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+     #hero 
+    {
+        padding: 100px 100px;
+        box-shadow: 5px 5px 50px rgba(84, 0, 63, 0.956);
+
+    }
+    #somos-proya{
+        font-size: large;
+        padding: 10px;
+         
+    }
+    .universidad {
+        margin-left: 2cm ;
+        max-width: 100%;  /* cambia su tamaño de acuerdo al ancho de la pantalla*/
+        height: auto;
+    }
+   </style>
+    <title>Inicio</title>
+</head>
+<body>
+ <header>
+    <nav class="logo-container">
+        <h1 class="logo">ProgramaYa!</h1>
+        <img src="fondo2.png" alt="" class="logo_foto">
+    </nav>
+
+</header>   
+    <nav id="lista">
+        <ul class="lista">
+            <a href="sobre_nosotros.html" class="link"><li>Sobre nosotros</li></a>
+            <a href="nuestros_productos.html" class="link"><li>Nuestros cursos</li></a>
+            <a href="caracteristicas.html" class="link"><li>Características</li></a>
+            <a href="formulario.html" class="link"><li>Formulario</li></a>
+        </ul>
+    </nav>
+  
+ <section id="hero">
+    <h1  id="mejores">Aprende a Programar <br> con los Mejores</h1>
+ </section>
+<section id="somos-proya">
+    <h2>Novedades</h2>
+    <p>¡Descubre nuestro emocionante nuevo curso de programación! <br>
+         Estamos encantados de ofrecerte una oportunidad única <br>
+          para expandir tus habilidades informáticas sin costo alguno. <br>
+          Este curso gratuito te brindará las bases sólidas que necesitas <br>
+          para sobresalir en el mundo de la programación.</p>
+        <a href="nuestros_productos.html"><button >Leer+</button></a> 
+</section>
+<section >
+    <h3>Clases presenciales en la Universidad IA</h3>
+    <img src="universidad.jpg" alt="" class="universidad">
+</section>
+    <h2>Nuestros logros</h2>
+<section  class="profesores">
+<nav class="profesor">
+    <img src="foto_mujer.jpeg" alt="" class="profesor1foto"> 
+    <p>"Este curso de programación no solo me ayudó a adquirir habilidades técnicas, <br>
+         sino también a conectarme con una comunidad increíble de programadores apasionados."</p>
+</nav>
+<nav class="profesor">
+    <img src="profesor2.jpg" alt="" class="profesor2foto">
+    <p>"No tenía experiencia previa en programación, pero este curso me guió paso a paso. <br> 
+        Ahora, estoy trabajando como desarrollador de software."</p>
+</nav>
+<nav class="profesor">
+    <img src="profesor3.jpg" alt="" class="profesor3foto">
+    <p>"Las oportunidades de trabajo en el campo de la programación son innumerables.<br> 
+        Este curso es la puerta de entrada a un futuro lleno de posibilidades."</p>
+ </nav>
+</section>
+
+<footer> 
+    <p>&copy; Programmer 2023</p>
+</footer>
+ </body>
+</html>

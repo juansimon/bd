@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    background-color:  rgb(59, 4, 110);
+    display: block;
+    background: radial-gradient(circle, #d333ff, #d4a4e2);
+    animation: pulse 6s infinite alternate;
+  }
+
+@keyframes pulse {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 120% 120%;
+  }
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+
+}
+h2 {
+    font-size: 2.7em;
+    color: white;
+    font-weight:bolder;
+}
+h3 {
+    font-size: 1.25em;
+    color: rgb(251, 249, 246);
+}
+p{
+    color:rgb(255, 255, 255);
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+header {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.caracteristicas {
+    padding-top: 1em;
+    font-size: 3em;
+    margin-left: 10em;
+
+}
+.oferta {
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    margin: 0;
+}
+#caracteristicas {
+    background-image: linear-gradient( 0deg, rgba(238, 0, 255, 0.5), rgba(0,0,0,0.5))
+    ,url(programacion.jpeg);
+    background-size: cover;
+    padding: 100px;
+}
+
+
+
+
+#nuestros-programas {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+#nuestros-programas .container {
+    padding: 100px 0px;
+}
+#nuestras-programas h2 {
+    margin-top: 0;
+   
+}
+#nuestros-programas p {
+    display: flex;
+
+}
+
+.carta1 {
+    background-image: linear-gradient( 0deg, rgba(238, 0, 255, 0.5), rgba(0,0,0,0.5))
+    ,url(python.png);
+ 
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+}
+.carta2 {
+    background-image: linear-gradient( 0deg, rgba(238, 0, 255, 0.5), rgba(0,0,0,0.5))
+    ,url(full-stuck.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+}
+.carta3 {
+    background-image: linear-gradient( 0deg, rgba(238, 0, 255, 0.5), rgba(0,0,0,0.5))
+    ,url(front-end-developer.png);
+    background-position:  center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: separate; /*Para fusionar los bordes de la tabla*/
+    border-spacing: 5 5px;
+}
+th, td {
+    text-align: left;
+    background-color: rgb(137, 45, 222);
+    border-style: 10px solid rgb(185, 92, 186) ;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+   
+}
+
+.logo_foto {
+    width: 4em;
+    height: auto;
+}
+
+
+#lista{
+    background-color: rgb(255, 255, 255);
+    margin: 0cm;
+    padding: 1%;
+}
+fieldset {
+    background-color: #9e02d7;
+}
+button {
+    background: linear-gradient(to bottom, #dc91cf, #e762de);
+    color: white; 
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Alineación del texto en el centro */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; 
+    margin: 10px 2px; /* Márgenes superior e inferior */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: transform 0.3s ease;
+    
+}
+    a:hover {
+        transform: scale(1.1);
+  }
+ 
